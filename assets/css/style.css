@@ -1,0 +1,40 @@
+/* #inspirational-quote {
+	margin-top: 80px;
+} */
+
+.jumbotron {
+	padding: 60px;
+	margin: 60px 20px 20px 20px;
+	height: 100%;
+	background: white;
+	opacity: 0.75;
+	text-align: center;
+}
+
+#quote {
+	font-family: 'Meie Script', cursive;
+	text-align: center;
+	/* color: #ffffff; */
+	font-size: 36px;
+}
+
+#author {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 20px;
+	/* color: #ffffff; */
+	text-align: center;
+	clear: both;
+}
+
+h1,
+.lead {
+	font-family: 'Roboto Mono', monospace;
+	/* font-size: 20px; */
+}
+
+#cover {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}

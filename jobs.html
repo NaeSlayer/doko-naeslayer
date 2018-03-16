@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="us-en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/jobs.css" />
+    <link href="https://fonts.googleapis.com/css?family=Meie+Script|Roboto+Mono" rel="stylesheet">
+    <title>doko jobs</title>
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">doko - find where you belong</a>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-offset-2 col-md-12">
+                <div class="jumbotron" id="job-panel">
+                    <div class="panel panel-default">
+                        <div class="panel-heading panel-primary">
+                            <h3 class="panel-title" id="job-search-title">
+                                <strong>Job Listings by City</strong>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <table class="table table-hover" id="job-listings">
+                                <thead>
+                                    <tr>
+                                        <th>Job Title</th>
+
+                                        <th>Job Location</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="job-table">
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <button class=" lead btn btn-primary btn-lg" id="previous-button" role="button">Previous Page
+                        </button>
+                        <div id="page-number"></div>
+                        <button class=" lead btn btn-primary btn-lg" id="next-button" role="button">Next Page
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Copyright &copy; 2018 Dukoders</p>
+    </div>
+
+
+
+    <!-- jquery CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="assets/javascript/jobs.js"></script>
+
+    <!-- <script type="text/javascript" src="assets/javascript/app.js"></script>
+    <script type="text/javascript" src="assets/javascript/citydata.js"></script>
+    <script type="text/javascript" src="assets/javascript/events.js"></script>
+    <script type="text/javascript" src="assets/javascript/jobs.js"></script>
+    <script type="text/javascript" src="assets/javascript/realestate.js"></script> -->
+</body>
+
+</html>
